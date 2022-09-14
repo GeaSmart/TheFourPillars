@@ -9,6 +9,5 @@ namespace TheFourPillars.Inheritance
     public class Factura : DocumentoVenta
     {
         public string RazonSocial { get; set; }
-
     }
 }
