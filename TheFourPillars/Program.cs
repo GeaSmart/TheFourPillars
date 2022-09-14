@@ -1,4 +1,5 @@
 ﻿using System;
+using TheFourPillars.Polymorphism;
 
 namespace TheFourPillars
 {
@@ -6,7 +7,13 @@ namespace TheFourPillars
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Testing polymorphism...");
+
+            Animal perrito = new Perro();
+            Animal gatito = new Gato();
+
+            perrito.EmitirSonido();
+            gatito.EmitirSonido();
         }
     }
 }
